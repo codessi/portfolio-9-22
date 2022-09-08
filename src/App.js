@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import profile from "./images/profile.jpg";
+import TechStack from "./pages/TechStack"
 function App() {
   return (
     <div className=" min-h-screen flex flex-col justify-center items-center  font-Montserrat">
@@ -47,9 +48,7 @@ function App() {
       </div>
 
       {/* tech stack  */}
-      <div className="">
-
-      </div>
+     <TechStack />
     </div>
   );
 }
